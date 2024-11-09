@@ -39,9 +39,9 @@ if (heartRate < 100) {
 let currentTemp = 4; // Current temperature in °C
 if (currentTemp <= 5) {
     console.log('Chiiled to perfection!')
+} else {
+    console.log(`Needs a cooler!`);
 }
-console.log(``);
-
 
 // #### Challenge 5: Late Night Coding Session
 // Determine if it's a good idea to have a Monster Energy drink based on the current hour.
