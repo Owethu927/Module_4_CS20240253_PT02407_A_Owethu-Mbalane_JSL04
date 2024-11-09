@@ -25,9 +25,9 @@ if (cansLeft < 5) {
 
 let heartRate = 95; // Current heart rate in bpm
 if (heartRate < 100) {
-    console.log('Boost needed')
+    console.log('Boost needed!')
 } else {
-    console.log('Energy levels are high')
+    console.log('Energy levels are high!')
 }
 
 
