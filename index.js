@@ -14,6 +14,8 @@ console.log(``);
 let cansLeft = 3; // Any number of cans
 if (cansLeft < 5) {
     console.log("Time to restock")
+} else {
+    console.log ("We're stocked")
 }
 
 
