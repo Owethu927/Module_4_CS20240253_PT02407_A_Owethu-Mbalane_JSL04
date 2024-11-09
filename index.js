@@ -15,7 +15,7 @@ let cansLeft = 3; // Any number of cans
 if (cansLeft < 5) {
     console.log("Time to restock")
 } else {
-    console.log ("We're stocked")
+    console.log ("We're socked")
 }
 
 
@@ -54,6 +54,11 @@ let currentHour = 22;
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
+if (currentHour >= 7 && currentHour  <= 23 ) {
+    console.log('Unleash the beast!')
+} else {
+    console.log('Better stick to water')
+}
 
 
 
